@@ -1,15 +1,15 @@
 
 // form validation 
-const submitbtn = document.getElementById('submitbtn');
+// const submitbtn = document.getElementById('submitbtn');
 
 
 
 
 
 
-function validate(){
-    const sname = document.getElementById('sname');
-    
+// function validate(){
+//     const sname = document.getElementById('sname');
 
-}
+
+// }
 

@@ -396,8 +396,145 @@ input {
   }
 
   .contact-session {
-    width: 100%;
+    width: auto;
     margin-top: 40px;
     padding: 30px;
   }
+}
+
+.mail-container{
+display: flex;
+width: 100%;
+padding: 100px;
+justify-content: center;
+align-items: center;
+gap: 50px;
+background:  #EF6E11;
+}
+.mail-container-h1{
+  color: var(--Colors-text-text-light, #FAFAFA);
+  text-align: center;
+  font-family: Mona Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mail-container-para{
+  color: var(--Colors-text-text-light, #FAFAFA);
+  text-align: center;
+  font-family: Mona Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.mail-input-container-input{
+  color: #808080;
+  font-family: Mona Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%; 
+  width: 598px;
+}
+
+#btn-email{
+  display: flex;
+  width: 237px;
+  padding: var(--numbers-space-2, 16px) var(--numbers-space-1, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--numbers-space-1, 8px);
+background: var(--Colors-bg-bg-light, #FAFAFA);
+}
+
+@media (max-width:768px) {
+  
+  .mail-container{
+    display: block;
+    flex-direction: column;
+    width: auto;
+    margin: 20px 0;
+    overflow: hidden;
+
+  }
+
+  .mail-list-container{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .mail-input-container{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .mail-input-container-input{
+    width: 90%;
+  }
+}
+
+.endorsements{
+  display: flex;
+  width: 100%;
+  padding: var(--numbers-space-5, 100px);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+border-top: 2px solid var(--Colors-stroke-border-gray, #808080);
+border-right: var(--numbers-space-0, 0px) solid var(--Colors-stroke-border-gray, #808080);
+border-bottom: var(--numbers-space-0, 0px) solid var(--Colors-stroke-border-gray, #808080);
+border-left: var(--numbers-space-0, 0px) solid var(--Colors-stroke-border-gray, #808080);
+background: var(--Colors-bg-bg-light, #FAFAFA);
+}
+
+.endorsements-h1{
+  color: var(--Colors-text-text-pry, #EF6E11);
+  text-align: center;
+  font-family: Mona Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.endorsements-para{
+  color: var(--Colors-text-text-gray, #808080);
+  text-align: center;
+  font-family: Mona Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.endorsement-partners{
+  display: flex;
+padding: var(--numbers-space-0, 0px);
+justify-content: center;
+align-items: center;
+gap: var(--numbers-space-5, 100px);
+}
+
+@media (max-with:768px) {
+  .endorsements{
+    width: 100%;
+
+  }
+  .endorsement-partners{
+    display: block;
+    flex-direction: column;
+  }
+  .endorse{
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+  } 
 }
